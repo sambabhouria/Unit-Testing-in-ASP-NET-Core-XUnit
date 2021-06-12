@@ -1,5 +1,6 @@
 ﻿
 using Calculator.Services;
+using System;
 using Xunit;
 
 /// <summary>
@@ -79,6 +80,16 @@ namespace CalculatorTests
             var actual = _unitUnderTesting.Divide(x1, x2);
 
             Assert.Equal(expected, actual, 0);
+        }
+        [Fact]
+        public void DivideByZeroException()
+        {
+            double x1 = 100;
+            double x2 = 0;
+
+            Action act = () => _unitUnderTesting.Divide(x1, x2);
+
+            Assert.Throws<DivideByZeroException>(act);
         }
     }
 }

@@ -226,7 +226,7 @@ var assemblies = [
     "classes": [
       { "name": "Calculator.Controllers.MathsController", "rp": "Calculator_MathsController.html", "cl": 0, "ucl": 17, "cal": 17, "tl": 52, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 0, "lch": [], "bch": [], "hc": [] },
       { "name": "Calculator.Program", "rp": "Calculator_Program.html", "cl": 0, "ucl": 8, "cal": 8, "tl": 26, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 0, "lch": [], "bch": [], "hc": [] },
-      { "name": "Calculator.Services.MathsService", "rp": "Calculator_MathsService.html", "cl": 13, "ucl": 2, "cal": 15, "tl": 34, "ct": "LineCoverage", "mc": "-", "cb": 1, "tb": 2, "lch": [], "bch": [], "hc": [] },
+      { "name": "Calculator.Services.MathsService", "rp": "Calculator_MathsService.html", "cl": 15, "ucl": 0, "cal": 15, "tl": 34, "ct": "LineCoverage", "mc": "-", "cb": 2, "tb": 2, "lch": [], "bch": [], "hc": [] },
       { "name": "Calculator.Startup", "rp": "Calculator_Startup.html", "cl": 0, "ucl": 27, "cal": 27, "tl": 65, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 2, "lch": [], "bch": [], "hc": [] },
       { "name": "Calculator.WeatherForecast", "rp": "Calculator_WeatherForecast.html", "cl": 0, "ucl": 4, "cal": 4, "tl": 15, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 0, "lch": [], "bch": [], "hc": [] },
     ]},

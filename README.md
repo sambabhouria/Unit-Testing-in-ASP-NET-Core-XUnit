@@ -26,12 +26,16 @@ After the above XML file has been generated run the below command to generate a 
 in this command you need to specify the path to coverage.cobertura.xml and also specify 
 the report type which has been set to Html in the below command.
 
+reportgenerator "-reports:path\to\TestResults\guid\coverage.cobertura.xml" "-targetdir:coveragereport" -reporttypes:Html
+
 ### `Screen shot`
  ![alternative text](test-explorator-not-test-executed-yet.png "img")
  ![alternative text](test-failled-screen.png "img")
  ![alternative text](all-test-passed.png "img")
  ![alternative text](test-coverage-repport.png "img")
-  ![alternative text](code-that-not-covrage.png "img")
+ ![alternative text](code-that-not-covrage.png "img")
+ ![alternative text](all-test-covrage-passed.png "img")
+  
 
 
 
