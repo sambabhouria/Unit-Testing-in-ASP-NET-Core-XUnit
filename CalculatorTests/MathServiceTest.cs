@@ -70,7 +70,8 @@ namespace CalculatorTests
             Assert.Equal(expected, actual, 0);
         }
 
-        [Fact]
+        //[Fact]
+        [Fact(Skip = "Dont run now")]
         public void Divide()
         {
             double x1 = 100;
@@ -81,7 +82,7 @@ namespace CalculatorTests
 
             Assert.Equal(expected, actual, 0);
         }
-        [Fact]
+        [Fact(DisplayName = "Maths - Divided by Zero Exception")]
         public void DivideByZeroException()
         {
             double x1 = 100;
@@ -90,6 +91,19 @@ namespace CalculatorTests
             Action act = () => _unitUnderTesting.Divide(x1, x2);
 
             Assert.Throws<DivideByZeroException>(act);
+        }
+
+        [Theory(DisplayName = "Maths - Divided with Parameters")]
+        [InlineData(40, 20, 2)]
+        public void DivideWithParameter(double value1, double value2, double ExpectedValue)
+        {
+            double x1 = value1;
+            double x2 = value2;
+            double expected = ExpectedValue;
+
+            var actual = _unitUnderTesting.Divide(x1, x2);
+
+            Assert.Equal(expected, actual, 0);
         }
     }
 }
