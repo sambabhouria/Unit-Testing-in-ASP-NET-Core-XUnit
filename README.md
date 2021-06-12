@@ -33,7 +33,6 @@ reportgenerator "-reports:path\to\TestResults\guid\coverage.cobertura.xml" "-tar
  ![alternative text](test-failled-screen.png "img")
  ![alternative text](all-test-passed.png "img")
  ![alternative text](test-coverage-repport.png "img")
- ![alternative text](code-that-not-covrage.png "img")
  ![alternative text](all-test-covrage-passed.png "img")
   
 
